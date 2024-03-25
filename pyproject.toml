@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "geojson-generator"
+version = "0.1.0"
+description = ""
+authors = ["João Oliveira <deoliveira.jvm@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.110.0"}
+turfpy = {extras = ["all"], version = "^0.0.7"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
